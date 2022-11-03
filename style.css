@@ -1,3 +1,29 @@
 body {
-  background-color: aliceblue;
+  background-image: url(/images/jordon-conner-tIr-PWgSYB4-unsplash.jpg),
+    url(/images/gesphotoss-EaCidUroyVE-unsplash.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50% 100%;
+  background-position: left top, right top;
+}
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  color: aqua;
+  font-weight: bold;
+}
+p {
+  text-align: center;
+}
+ul {
+  white-space: nowrap;
+  text-align: center;
+  overflow: hidden;
+  list-style-position: inside;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
 }
